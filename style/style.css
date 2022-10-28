@@ -1,0 +1,123 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-image: url('/images/cover1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    color: white;
+}
+table {
+    width: 63%;
+    border-collapse: collapse;
+}
+th, td, caption {
+    border: 1px solid rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+ caption:hover {
+    background-color:#333;
+}
+
+ tr:hover > td 
+ { background-color: #333; }
+
+ .table-row-1:hover {
+    background-color: #333;
+ }
+
+#welcome {
+    font-family: audiowide;
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 1px 2px red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: +1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .img-intro {
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    opacity: 0.8;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.img-intro:hover {
+    opacity: 1;
+}
+
+#about {
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#link-about {
+
+    color: rgb(61, 231, 9);
+    text-decoration: none;
+}
+
+.menu-header{
+    text-align: center;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color:white;
+    border: 1px solid red;
+    margin: auto;
+    padding: 2px;
+}
+
+#form {
+    max-width: 60%;
+}
+
+.phone-number{
+    color: white;
+}
+
